@@ -1,0 +1,5 @@
+AI is changing how we work.
+Machine learning is a part of AI, and deep learning is a part of machine learning.
+Data matters more than the model. Data, data, data!
+A model is only as good as the data you give it.
+Learning AI takes time, but the basics do not change much.

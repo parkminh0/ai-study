@@ -1,0 +1,10 @@
+data: 5
+is: 4
+learning: 4
+a: 3
+ai: 3
+the: 3
+as: 2
+machine: 2
+model: 2
+of: 2
