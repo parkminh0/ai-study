@@ -14,7 +14,7 @@
 """
 
 import os
-
+import requests
 
 # ─────────────────────────────────────────────
 # 문제 1. 기억하는 카운터
@@ -41,6 +41,8 @@ class WordCounter:
         """
         self.counts = {}
         self.total = 0
+        r = requests.post('https://www.gutenberg.org/cache/epub/11/pg11.txt', data={'key': 'value'})
+        self.add(r.text)
 
     def add(self, text):
         """텍스트를 받아 단어를 세어 누적하세요. (돌려줄 값 없음)
